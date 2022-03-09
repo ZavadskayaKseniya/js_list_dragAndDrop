@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:ital@1&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.list1{
+    border: 1px solid rgb(189, 183, 183);
+    border-radius: 25px;
+    height:25%;
+    width: 30%;
+    background-color: rgba(204, 201, 201, 0.096);
+   
+}
+.list ul{
+    list-style: none;
+   
+}
+.list-label {
+   font-size: 9px;
+   
+  
+}
+.list-label h1{
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+.search {
+    border: 1px solid rgb(189, 183, 183);
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	
+    
+	outline: none;
+	border: 1px solid rgba(204, 200, 200, 0.753);
+	border-radius: 50px;
+	height: 46px;
+	padding: 5px;
+	background-color: rgba(197, 197, 197, 0.096);
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgba(147, 90, 185, 0.336), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #808080;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+
+
+.item{
+   
+    background-color: rgba(193, 143, 240, 0.562);
+    width: 100%;
+    border: 1px solid black;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 5px;
+    cursor:all-scroll;
+}
+
+
+.item:hover {
+	transition: all 0.2s;
+	box-shadow: 5px 10px 14px rgba(147, 90, 185, 0.479), 0 3px 6px rgb(0 0 0 / 8%);
+    background-color: rgba(88, 64, 110, 0.562);
+}
+
+.item h4{
+    margin-left: 15px;
+}
+
+
+
+.search input{
+    width: 80%;
+    margin: 15px 0px;
+}
+
+
+
+.list {
+  
+    height:25%;
+    width: 30%;
+    border: 1px solid rgb(189, 183, 183);
+    border-radius: 25px;
+   
+
+}
+
+.list-spisok{
+  height: 280px;
+  overflow-y: auto;
+  
+}
+
+.hide {
+    display: none;
+}
+.draItem-active{
+    opacity:0;
+}
+
+.zone-active{
+    border:  2px solid rgba(93, 43, 185, 0.541);  
+}
+
+
+
